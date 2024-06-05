@@ -1,0 +1,6 @@
+﻿SET IDENTITY_INSERT [dbo].[Orders] ON
+INSERT INTO [dbo].[Orders] ([IdOrder], [TitleEquipment], [DescriptionProblem], [OrderStatus], [CommentsWorker], [DeadLine], [Problemtype], [idClientForeign], [idWorker]) VALUES (1, N'', N'Тест_Оборудование', N'Тест_проблемы', N'В ожидании', N'Тест_комментыРазр', N'28/02/2024', N'Физический', 11, 5)
+INSERT INTO [dbo].[Orders] ([IdOrder], [DateAdding], [TitleEquipment], [DescriptionProblem], [OrderStatus], [CommentsWorker], [DeadLine], [Problemtype], [idClientForeign], [idWorker]) VALUES (2, N'20/02/2024', N'Тест_Оборудование', N'Тест_проблемы', N'В работе', N'Тест_комментыРазр', N'28/02/2024', N'Программный', 12, 5)
+INSERT INTO [dbo].[Orders] ([IdOrder], [DateAdding], [TitleEquipment], [DescriptionProblem], [OrderStatus], [CommentsWorker], [DeadLine], [Problemtype], [idClientForeign], [idWorker]) VALUES (3, N'28/02/2024', N'Микроволновка', N'Сломалась очень громко и взорвалась', N'В работе', N'Там всё плохо', N'28/02/2024', N'Физический', 13, 6)
+INSERT INTO [dbo].[Orders] ([IdOrder], [DateAdding], [TitleEquipment], [DescriptionProblem], [OrderStatus], [CommentsWorker], [DeadLine], [Problemtype], [idClientForeign], [idWorker]) VALUES (4, N'28/02/2024', N'ноутбук Lenovo B590', N'Не работает Hdd', N'В работе', N'Не издаёт звуков и не включается', N'10/03/2024', N'Физический', 14, 5)
+SET IDENTITY_INSERT [dbo].[Orders] OFF

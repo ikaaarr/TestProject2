@@ -1,0 +1,1 @@
+﻿Select Post,IdWorker from Workers where Password = 12345 and Login = @login;
